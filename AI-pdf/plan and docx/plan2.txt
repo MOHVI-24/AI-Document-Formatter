@@ -1,0 +1,20 @@
+Folder Structure
+
+AI-PDF-Generator/
+
+frontend/
+    pages/
+    components/
+    styles/
+
+backend/
+    app.py
+    ai.py
+    pdf_generator.py
+    formatter.py
+    prompts.py
+
+uploads/
+outputs/
+
+database/

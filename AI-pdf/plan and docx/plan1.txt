@@ -1,0 +1,98 @@
+That's a solid idea. But don't build just a TXT → PDF converter. There are already hundreds of those. The AI should add value that normal converters don't.
+
+Project Idea: AI Document Formatter
+
+Input
+
+.txt
+.md
+.docx
+Copy & Paste Text
+
+AI Processing (Online)
+The AI analyzes the text and automatically:
+
+Detects document type
+Resume
+Report
+Assignment
+Letter
+Invoice
+Research Paper
+Notes
+Meeting Minutes
+Blog
+Story
+Corrects grammar
+Improves writing
+Generates
+Headings
+Subheadings
+Bullet points
+Numbering
+Tables
+Cover page
+Table of contents
+Creates professional formatting
+Adds
+Page numbers
+Headers
+Footers
+Watermark (optional)
+Company logo (optional)
+Generates citations if required
+Creates a beautiful PDF.
+
+
+
+
+TXT File
+      │
+      ▼
+Upload
+      │
+      ▼
+AI Analysis
+      │
+      ├── Detect document type
+      ├── Grammar correction
+      ├── Professional formatting
+      ├── Generate headings
+      ├── Improve readability
+      ├── Create TOC
+      └── Add styling
+      │
+      ▼
+PDF Generator
+      │
+      ▼
+Download PDF
+
+
+
+
+Technology Stack
+
+1.Frontend :
+ *React
+ *Next.js
+ *Tailwind CSS
+ *TypeScript
+
+2.Backend:
+ *Python
+ *FastAPI
+ *AI
+ *for API use these three API platforms (OpenAI API (GPT-5.5/5.6 or newer models) , Gemini API , Claude API)
+
+3.database :
+ *Use the mongoDB to save the data related to application 
+
+
+
+PDF Generation
+
+Python libraries:
+
+ReportLab , WeasyPrint , pdfkit
+
